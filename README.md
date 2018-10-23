@@ -19,7 +19,7 @@ Now we have our dataset next we have to clean and process it to train on neural 
 Run  test.py to get extracted_keywords_test.txt
 # Encoding keywords using Word2vec 
 Run word_to_vec.py to get the processed dataset that is Cleaned_dataset.csv
-# Train the model on nueral network 
+# Train the model on neural network 
 Run training_PR.py to get the trained model and save it for prediction.
 
 
