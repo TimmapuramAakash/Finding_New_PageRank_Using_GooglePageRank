@@ -1,8 +1,9 @@
 # Finding_New_PageRank_Using_GooglePageRank
 Google Page Ranking is used to find the rank of each page and now we training them on neural network to find the new  page rank.Many attributes are to taken to get  precise rank of new page but here i,m using url keywords and then  encoding them using glove and train.
-check out page ranking code https://github.com/Chepkeitany/pagerank to assign rank for a page 
-We have to execute according to readme only change is done in sprank.py
-we need to add the below code in the program to get the url with their rank
+
+check out page ranking code https://github.com/Chepkeitany/pagerank to assign rank for a page.
+We have to execute all programs accordingly to get ranking for pages.
+Only change is to be done in sprank.py and we need to add the below code in the program to get the url with rank of that page.
 
 # Get all url with page rank
 cur.execute('''SELECT url,new_rank FROM Pages''')
