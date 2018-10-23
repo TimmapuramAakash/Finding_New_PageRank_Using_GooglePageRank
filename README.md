@@ -5,7 +5,7 @@ check out page ranking code https://github.com/Chepkeitany/pagerank to assign ra
 We have to execute all programs accordingly to get ranking for pages.
 Only change is to be done in sprank.py and we need to add the below code in the program to get the url with rank of that page.
 
-# Get all url with page rank( Training dataset)
+# Get all url with page rank( Training dataset)	
 cur.execute('''SELECT url,new_rank FROM Pages''')
 file = open('training_set','w+')
 for row in cur:
